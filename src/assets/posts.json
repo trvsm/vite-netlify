@@ -1,0 +1,14 @@
+
+[
+    {
+        "title": "example",
+        "date":"2024-01-27",
+        "body":"some content"
+    },
+
+    {
+      "title": "first",
+      "date": "2024-01-27",
+      "body": "wow two posts"
+    }
+]
