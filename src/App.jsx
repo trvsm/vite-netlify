@@ -25,7 +25,7 @@ function App() {
           // ignore index 0; it's the template
           return index === 0 ? (
             ""
-          ) : index === 1 ? (
+          ) : index === (blogPosts.length-1)? (
             <Post
               open="true"
               key={post.title + index}

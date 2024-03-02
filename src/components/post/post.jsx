@@ -6,7 +6,7 @@ export default function Post({ open, title, date, body }) {
           <h3>{title}</h3>
         </summary>
         <p>{date}</p>
-        <p>{body}</p>
+        <p className="post__body">{body}</p>
       </details>
     </article>
   ) : (
@@ -16,7 +16,7 @@ export default function Post({ open, title, date, body }) {
           <h3>{title}</h3>
         </summary>
         <p>{date}</p>
-        <p>{body}</p>
+        <p className="post__body">{body}</p>
       </details>
     </article>
   );

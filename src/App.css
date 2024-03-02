@@ -5,10 +5,12 @@
   text-align: center;
 }
 
-details{
+details {
   display: inline;
 }
-h3{display: inline;}
+h3 {
+  display: inline;
+}
 
 .logo {
   height: 6em;
@@ -44,4 +46,8 @@ h3{display: inline;}
 
 .read-the-docs {
   color: #888;
+}
+
+.post__body {
+  white-space: pre-wrap;
 }
