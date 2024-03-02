@@ -1,14 +1,18 @@
-
 [
-    {
-        "title": "example",
-        "date":"2024-01-27",
-        "body":"some content"
-    },
+  {
+    "title": "example",
+    "date": "2024-01-27",
+    "body": "some content"
+  },
 
-    {
-      "title": "first",
-      "date": "2024-01-27",
-      "body": "wow two posts"
-    }
+  {
+    "title": "first",
+    "date": "2024-01-27",
+    "body": "wow two posts"
+  },
+  {
+    "title": "Python Novice to Intermediate: Two Months of Learning & Applying",
+    "date": "2024-03-02",
+    "body": "What do you do to further your coding journey? I started the year with fresh eyes on Python, where I had brief experience before.  This post describes my experience Jan/Feb 2024 with Al Sweigart's Automate the Boring Stuff\n\nAutomate is largely a tutorial book aimed at beginners filled with practical projects and suggestions to develop your own programs.  It covers things like interacting with the file system, web scraping, excel/csv files and more.  I found the projects very strong.  I was able to apply the concepts right away and adapt to my own practical ideas.  There was one case where more detailed documentation or external links would have helped: re.VERBOSE.  It was great to write regexes in smaller chunks, but I tried to use it with lookarounds and ran into troubles.  There was content I didn't get too, definitely planning to return to this book for specific projects.  Overall I would recommend to new programmers, hobby programmers, and office workers with tasks to automate\n\nBeyond projects from Automate the Boring Stuff I worked on several projects including grabbing lines from invoices, prompting myself for morning gratitude journal, editing an html report, and creating a module for Odoo (an open source ERP software)\n\nTo compile from invoices I used Al's pyperclip module via pip, along with regular expressions. The flow that I supported was ctrl+a, ctrl+c to select an invoice in the browser and copy it, then run the python script matching a line pattern and copying the item name, sku, and cost back to the clipboard so I could paste to file.\n\nI used to write a quick morning journal in Google Docs.  I wanted to move my information more private, so I wrote a Python program to hold my journal.  It consists of several set questions with one skippable, a loop of affirmations, and an optional additional affirmation, then saves to file with date as the dictonary key.\n\nA friend asked for help to automate edits to reports from his work software.  This project was my first to run on Windows rather than Unix, so I learned about Windows paths and default encoder.\n\nFinally I got practice working in the Odoo codebase.  I work with this software for work. There's lots of room to customize Odoo through the GUI, sometimes it is easier to dive into the codebase.  Documentation is sparse, so it took some u with youtube and practice to create a project that brought useful function to the codebase\n\nThe crux of the past two months is Python supports hobby programmers to quickly build and run small projects locally.  There's a strong ecosystem of open source packages so programmers can focus on the specifics of a problem rather than reinventing the wheel.\n\nThe past two months have been lots of fun diving deeper into Python while developing practical projects quickly.  Automate the Boring stuff by Al Sweigart was a well written companion, with accurate examples and suggestions for further projects.  I expect to come back to Python for local projects like email automation and working with spreadsheets.  There are more advanced topics and projects ahead for me like stacks, decorators, concurrency, and machine learning projects.  I'm considering Al's 'Beyond the Basic Stuff' for further reading after some time on JavaScript projects.  Let me know if you have comments or suggestions: trvsmartin @ gmail"
+  }
 ]
