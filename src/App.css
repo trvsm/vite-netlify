@@ -50,4 +50,5 @@ h3 {
 
 .post__body {
   white-space: pre-wrap;
+  text-align: start;
 }
