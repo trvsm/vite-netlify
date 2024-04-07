@@ -6,7 +6,10 @@ export default function Post({ open, title, date, body }) {
           <h3>{title}</h3>
         </summary>
         <p>{date}</p>
-        <p className="post__body">{body}</p>
+        <div
+          className="post__body"
+          dangerouslySetInnerHTML={{ __html: body }}
+        ></div>
       </details>
     </article>
   ) : (
@@ -16,7 +19,10 @@ export default function Post({ open, title, date, body }) {
           <h3>{title}</h3>
         </summary>
         <p>{date}</p>
-        <p className="post__body">{body}</p>
+        <div
+          className="post__body"
+          dangerouslySetInnerHTML={{ __html: body }}
+        ></div>
       </details>
     </article>
   );
