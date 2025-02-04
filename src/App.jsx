@@ -3,6 +3,8 @@ import "./App.css";
 import data from "./assets/posts.json";
 import Post from "./components/post/post";
 
+// TODO: use netlify functions to setup a headless email server
+
 function App() {
   const [blogPosts, setBlogPosts] = useState(data);
   return (
@@ -25,7 +27,7 @@ function App() {
           // ignore index 0; it's the template
           return index === 0 ? (
             ""
-          ) : index === (blogPosts.length-1)? (
+          ) : index === blogPosts.length - 1 ? (
             <Post
               open="true"
               key={post.title + index}
