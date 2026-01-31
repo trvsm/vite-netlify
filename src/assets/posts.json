@@ -4,7 +4,6 @@
     "date": "2024-01-27",
     "body": "<p>some content</p>"
   },
-
   {
     "title": "first",
     "date": "2024-01-27",
@@ -29,5 +28,10 @@
     "title": "Self-Taught CS Book: Enhancing my Data Structure Skills",
     "date": "2024-06-04",
     "body": "This month I kept up my learning by reading \"The Self-Taught Computer Scientist\" by Cory Althof. Most introductory material I have studied and practiced with focus on lists/arrays and dictionaries/objects along with algorithms.  I've looked at a few other sources to get a better grip on data structures like linked lists and binary trees, but had trouble finding a good resource before this book.  Leetcode's learning material emphasized theory rather than real world application, and attempting to build my own curriculum was frustrating trying to decide what to prioritize.\n\nThe first half of the book covered familiar topics; Recursion, algorithms for search, sorting, strings, and math topics including binary and modulo division.  The data structures section introduced many unfamiliar topics with familiar examples.  The presentation of stacks and queues using Python arrays helped cement my understanding."
+  },
+  {
+    "title": "Network Security: Intro, Malware, DDoS",
+    "date": "2026-01-31",
+    "body": "Placeholder"
   }
 ]
